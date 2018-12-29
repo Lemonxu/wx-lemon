@@ -1,0 +1,4 @@
+
+<view class="{{circle?'paper-circle':''}} {{rounded?'paper-round':''}} {{!!zDepth?'elevation-'+zDepth:''}} my-class">
+  <slot></slot>
+</view>
